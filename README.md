@@ -42,7 +42,7 @@ En resumen: **mismos proyectos, mismas competencias, cero inversión en hardware
 Reproduce el comportamiento del edificio y el flujo completo del dato. Se despliega en minutos. Es lo que hace este kit autosuficiente. → [`/generador`](./generador)
 
 **Vía alternativa — Datasets públicos** *(también gratis)*
-Conjuntos de datos reales de otros edificios y aulas descargables de Internet (consumo, CO₂, meteorología, anomalías HVAC). Útiles para enriquecer o contrastar. Documentados en el [Anexo II](./proyectos-reutilizables).
+Conjuntos de datos reales de otros edificios y aulas descargables de Internet (consumo, CO₂, meteorología, anomalías HVAC). Útiles para enriquecer o contrastar. Documentados en el [Anexo II](./casos-de-uso-reutilizables).
 
 Cualquiera de las dos permite empezar hoy; lo construido vale luego con datos reales.
 
