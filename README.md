@@ -67,6 +67,7 @@ El **Curso de Especialización en Inteligencia Artificial y Big Data** del IES D
 
 **José Ramón Cebolla** — Profesor del Curso de Especialización en IA y Big Data, IES Dr. Lluís Simarro.
 
+
 ## Licencia
 
 Documentación publicada bajo **Creative Commons Atribución 4.0 (CC BY 4.0)**: puedes reutilizarla y adaptarla citando la fuente.
