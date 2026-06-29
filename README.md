@@ -42,7 +42,7 @@ Este repositorio es la **documentación abierta** de CENTINELA+ y un **kit de re
 
 **Enlaces relacionados**
 
-- Vídeos de los proyectos del alumnado (YouTube): `[<PLAYLIST>`](https://www.youtube.com/playlist?list=PLBpxYI9K1yOJ6ReU5TXAq5S0gi65KkYMo)
+- Vídeos de los proyectos del alumnado (YouTube): `[https://www.youtube.com/playlist?list=PLBpxYI9K1yOJ6ReU5TXAq5S0gi65KkYMo]
 - Generador de datos sintéticos (GitHub): [https://github.com/<usuario>/captia-synthetic-data-bms](https://github.com/captia-technology/captia-synthetic-data-bms)
 - Plataforma de despliegue: CAPTIA-connect / captia.ai
 
