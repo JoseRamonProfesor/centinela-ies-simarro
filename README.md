@@ -31,7 +31,7 @@ Este repositorio es la **documentación abierta** de CENTINELA+ y un **kit de re
 
 | Carpeta / fichero | Descripción |
 |---|---|
-| `presentacion/` | Presentación para centros visitantes (PDF y PPTX editable) |
+| `presentacion/` | Presentación para centros visitantes|
 | `enunciado/` | Enunciado del proyecto final y sus anexos |
 | `enunciado/Anexo_I_Casos_de_Uso` | Casos de uso del proyecto |
 | `enunciado/Anexo_II_Recursos` | Recursos, datasets e infraestructura |
