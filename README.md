@@ -1,73 +1,99 @@
-# CENTINELA+ · IES Dr. Lluís Simarro
+# CENTINELA+ · Kit replicable para el aula
 
-> Edificio inteligente y laboratorio vivo de IA y Big Data en un instituto de Formación Profesional.
-> Documentación abierta del proyecto y materiales reutilizables para otros centros educativos.
+> **¿Quieres hacer los proyectos de IA y Big Data de CENTINELA con tus alumnos, pero no tienes el presupuesto de sensórica? No te hace falta.**
+> Replica la experiencia completa **sin inversión en sensores ni hardware**, usando un **generador de datos sintéticos** y los enunciados reales del curso 2025-2026.
 
 **IES Dr. Lluís Simarro** — Centro de Excelencia en IA y Big Data · Xàtiva (Valencia)
-Curso de Especialización en Inteligencia Artificial y Big Data 2025-2026
+Curso de Especialización en Inteligencia Artificial y Big Data
 
 ---
 
-## Qué es CENTINELA+
+## ¿Por qué este kit?
 
-CENTINELA+ (*Centro Educativo NeTwork INteligente para el Entrenamiento, la investigación y el Aprendizaje*) convierte el propio edificio del instituto en un **edificio inteligente** que se monitoriza y optimiza mediante sensores e inteligencia artificial, y que **a la vez es el laboratorio real donde aprende el alumnado** del Curso de Especialización en IA y Big Data.
+CENTINELA+ convierte el edificio del instituto en un **edificio inteligente** y, a la vez, en el **laboratorio real** donde aprende el alumnado. La barrera para que otro centro lo replique siempre ha sido la misma: **la inversión en sensórica e infraestructura**.
 
-El proyecto persigue dos objetivos del mismo peso:
+Este kit elimina esa barrera. El **generador de datos sintéticos** reproduce el mismo flujo de datos que el sistema real —**MQTT → Telegraf → InfluxDB → Grafana**— **sin comprar un solo sensor**. Tus alumnos trabajan exactamente como si los datos vinieran del edificio, y el código que escriben sirve el día que tengas datos reales.
 
-- **Sostenibilidad:** medir y reducir el consumo energético de las aulas (objetivo de proyecto: al menos un 15%).
-- **Formación:** que el alumnado desarrolle competencias profesionales reales como Ingeniero/a de Datos, de Machine Learning y de DevOps, trabajando sobre infraestructura real.
-
-El sistema sigue una cadena estándar de datos: **sensores → MQTT → Telegraf → InfluxDB → captia.ai / Grafana**, diseñada para ser **replicable en cualquier centro**.
+En resumen: **mismos proyectos, mismas competencias, cero inversión en hardware.**
 
 ---
 
-## Objetivo de este repositorio
+## Empieza en 3 pasos
 
-Este repositorio es la **documentación abierta** de CENTINELA+ y un **kit de reutilización** para que otros institutos puedan replicar tanto la experiencia formativa como la arquitectura técnica. Aquí encontrarás la presentación, el enunciado completo del proyecto final con sus anexos, las guías para el alumnado y la arquitectura de referencia.
+1. **Despliega el generador de datos sintéticos** (software libre, sin hardware) → ver [`/generador`](./generador).
+2. **Escoge los casos de uso que quieres trabajar con tus alumnos** entre los del enunciado y sus anexos → ver [`/casos-de-reutilizables`](./casos-de-reutilizables).
+3. **Tus alumnos trabajan como si fueran datos reales** del edificio: ingesta, modelos, dashboards, chatbots… con el stack open source.
 
 ---
 
-## Contenido
+## Qué NO necesitas
 
-| Carpeta / fichero | Descripción |
+- ❌ Sensores ni instalación eléctrica.
+- ❌ La plataforma CAPTIA ni ningún servicio de pago.
+- ❌ Presupuesto desorbitado en hardware.
+
+**Solo necesitas software libre** (Docker y el stack open source) corriendo en un equipo o servidor del centro.
+
+---
+
+## Las dos vías de datos
+
+**Vía principal — Generador de datos sintéticos** *(recomendada, sin inversión)*
+Reproduce el comportamiento del edificio y el flujo completo del dato. Se despliega en minutos. Es lo que hace este kit autosuficiente. → [`/generador`](./generador)
+
+**Vía alternativa — Datasets públicos** *(también gratis)*
+Conjuntos de datos reales de otros edificios y aulas descargables de Internet (consumo, CO₂, meteorología, anomalías HVAC). Útiles para enriquecer o contrastar. Documentados en el [Anexo II](./proyectos-reutilizables).
+
+Cualquiera de las dos permite empezar hoy; lo construido vale luego con datos reales.
+
+---
+
+## Contenido del repositorio
+
+| Carpeta | Qué contiene |
 |---|---|
-| `presentacion/` | Presentación para centros visitantes|
-| `enunciado/` | Enunciado del proyecto final y sus anexos |
-| `enunciado/Anexo_I_Casos_de_Uso` | Casos de uso del proyecto |
-| `enunciado/Anexo_II_Recursos` | Recursos, datasets e infraestructura |
-| `enunciado/Anexo_III_Entregables` | Entregables y criterios de entrega |
-| `enunciado/Anexo_IV_Evaluacion_Rubrica` | Rúbrica de evaluación |
-| `guias/` | Guía de integración para el alumnado y guía de arquitectura de datos |
-| `arquitectura/` | Arquitectura de referencia (Medallion) y schema de datos |
+| [`/generador`](./generador) | Cómo desplegar y usar en clase el generador de datos sintéticos (enlace al repo de CAPTIA) |
+| [`/casos-de-reutilizables`](./casos-de-reutilizables) | Enunciado del proyecto final y **Anexos I–IV**: casos de uso, recursos, entregables y rúbrica de evaluación |
+| [`/guias`](./guias) | Guía de integración para el alumnado y cómo usar el generador en el aula |
+| [`/arquitectura`](./arquitectura) | Arquitectura de referencia (Medallion) y schema de datos |
+| [`/presentacion`](./presentacion) | Presentación del proyecto (PDF y PPTX editable) |
 
-**Enlaces relacionados**
-
-- Vídeos de los proyectos del alumnado (YouTube): `[https://www.youtube.com/playlist?list=PLBpxYI9K1yOJ6ReU5TXAq5S0gi65KkYMo]
-- Generador de datos sintéticos (GitHub): [https://github.com/<usuario>/captia-synthetic-data-bms](https://github.com/captia-technology/captia-synthetic-data-bms)
-- Plataforma de despliegue: CAPTIA-connect / captia.ai
+**Vídeos de los proyectos del alumnado (YouTube):**
+https://www.youtube.com/playlist?list=PLBpxYI9K1yOJ6ReU5TXAq5S0gi65KkYMo
 
 ---
 
 ## Cómo reutilizarlo en tu centro
 
-1. Revisa la **presentación** para una visión general del proyecto.
-2. Lee el **enunciado y los anexos**: definen casos de uso, recursos, entregables y evaluación, listos para adaptar.
-3. Consulta la **guía de arquitectura**: el proyecto trabaja con **datasets públicos** o con el **generador de datos sintéticos**, de modo que el alumnado puede empezar sin esperar a tener datos históricos propios.
-4. El stack es **100% open source** (Mosquitto, Telegraf, InfluxDB, Grafana, JupyterHub, MLflow, ElasticSearch, Ollama): sin coste de licencia.
+1. Mira la **presentación** para una visión general.
+2. Despliega el **generador** y elige **casos de uso** del enunciado y los anexos.
+3. Apóyate en las **guías** y en la **arquitectura de referencia** para organizar el trabajo del alumnado.
+4. Todo el stack es **open source**: sin coste de licencia.
 
-¿Quieres replicarlo o colaborar en proyectos de innovación? Contacto al final.
+¿Quieres replicarlo o colaborar en proyectos de innovación? Escríbeme (contacto abajo).
 
 ---
 
 ## Sobre el curso
 
-El **Curso de Especialización en Inteligencia Artificial y Big Data** del IES Dr. Lluís Simarro forma perfiles muy demandados combinando ingeniería de datos, machine learning, MLOps e IA generativa sobre proyectos con impacto real. CENTINELA+ es su proyecto integrador.
+El **Curso de Especialización en Inteligencia Artificial y Big Data** del IES Dr. Lluís Simarro forma perfiles muy demandados —Ingeniería de Datos, Machine Learning, MLOps e IA generativa— sobre proyectos con impacto real. CENTINELA+ es su proyecto integrador.
 
 ## Autor y contacto
 
-**José Ramón Cebolla** — Profesor del Curso de Especialización en IA y Big Data, IES Dr. Lluís Simarro.
-
+**José Ramón Cebolla** — Tutor del Curso de Especialización en IA y Big Data, IES Dr. Lluís Simarro.
+Email: `<jr.cebollacebolla@edu.gva.es>`
 
 ## Licencia
 
-Documentación publicada bajo **Creative Commons Atribución 4.0 (CC BY 4.0)**: puedes reutilizarla y adaptarla citando la fuente.
+La documentación de este repositorio se publica bajo **Creative Commons Atribución 4.0 (CC BY 4.0)**: reutilízala y adáptala citando la fuente.
+
+> **Nota:** el **generador de datos sintéticos** es un repositorio externo de **CAPTIA Technology** con su propia licencia. Revisa sus condiciones en su repositorio.
+
+<!--
+  Topics sugeridos para el repo (Settings → Topics), mejoran la difusión:
+  education · formacion-profesional · artificial-intelligence · big-data ·
+  iot · synthetic-data · mlops · teaching-materials
+  Descripción "About" sugerida:
+  Kit replicable: monta los proyectos de IA y Big Data de CENTINELA en tu aula,
+  sin sensores ni inversión en hardware, usando un generador de datos sintéticos.
+-->
