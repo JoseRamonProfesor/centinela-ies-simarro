@@ -53,7 +53,7 @@ Cualquiera de las dos permite empezar hoy; lo construido vale luego con datos re
 | Carpeta | Qué contiene |
 |---|---|
 | [`/generador`](./generador) | Cómo desplegar y usar en clase el generador de datos sintéticos (enlace al repo de CAPTIA) |
-| [`/casos-de-reutilizables`](./casos-de-reutilizables) | Enunciado del proyecto final y **Anexos I–IV**: casos de uso, recursos, entregables y rúbrica de evaluación |
+| [`/casos-de-uso-reutilizables`](./casos-de-uso-reutilizables) | Enunciado del proyecto final y **Anexos I–IV**: casos de uso, recursos, entregables y rúbrica de evaluación |
 | [`/guias`](./guias) | Guía de integración para el alumnado y cómo usar el generador en el aula |
 | [`/arquitectura`](./arquitectura) | Arquitectura de referencia (Medallion) y schema de datos |
 | [`/presentacion`](./presentacion) | Presentación del proyecto (PDF y PPTX editable) |
