@@ -4,7 +4,7 @@
 > Documentación abierta del proyecto y materiales reutilizables para otros centros educativos.
 
 **IES Dr. Lluís Simarro** — Centro de Excelencia en IA y Big Data · Xàtiva (Valencia)
-Curso de Especialización en Inteligencia Artificial y Big Data
+Curso de Especialización en Inteligencia Artificial y Big Data 2025-2026
 
 ---
 
