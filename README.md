@@ -21,7 +21,7 @@ En resumen: **mismos proyectos, mismas competencias, cero inversión en hardware
 ## Empieza en 3 pasos
 
 1. **Despliega el generador de datos sintéticos** (software libre, sin hardware) → ver [`/generador`](./generador).
-2. **Escoge los casos de uso que quieres trabajar con tus alumnos** entre los del enunciado y sus anexos → ver [`/casos-de-reutilizables`](./casos-de-reutilizables).
+2. **Escoge los casos de uso que quieres trabajar con tus alumnos** entre los del enunciado y sus anexos → ver [`/casos-de-uso-reutilizables`](./casos-de-uso-reutilizables).
 3. **Tus alumnos trabajan como si fueran datos reales** del edificio: ingesta, modelos, dashboards, chatbots… con el stack open source.
 
 ---
